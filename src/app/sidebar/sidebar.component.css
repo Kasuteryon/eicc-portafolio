@@ -1,0 +1,92 @@
+.wrapper {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.sub-title {
+  padding: .5rem 0;
+}
+
+.pre-title {
+  padding: .5rem 0;
+  color: #ffffffdb;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.description {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  letter-spacing: .2px;
+  color: #ffffff8c;
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-wrapper:hover:before {
+  background-color: transparent;
+}
+
+.video-wrapper:before {
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  background-color: #1b1b1f60;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  -webkit-transition: all ease 150ms;
+  transition: all ease 150ms;
+}
+
+.footer-copy {
+  padding: .75rem .25rem;
+  text-align: center;
+  font-size: .85rem;
+}
+
+.footer-copy .icon-footer {
+  padding: 0 .25rem;
+}
+
+.footer-copy a {
+  color: #ffffff78;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.links .block {
+  height: 8rem;
+  padding: .15rem;
+  display: block;
+}
+
+.links .block .block-in {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  background: #ffffff0a;
+}
+
+iframe {
+  border: solid 2px #ffffff29;
+}
+/*# sourceMappingURL=sidebar.component.css.map */

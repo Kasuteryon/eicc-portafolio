@@ -1,0 +1,103 @@
+.wrapper {
+  height: calc(100vh - 4rem);
+  position: relative;
+  display: block;
+  overflow-y: auto;
+}
+
+.wrapper-tecs {
+  height: 300px;
+  position: relative;
+  display: block;
+  overflow-y: auto;
+}
+
+.block-repo {
+  height: 15rem;
+  padding: .5rem;
+  display: block;
+  border-radius: 10px;
+}
+
+.block-repo .date {
+  color: #ffffff78;
+  font-size: .85rem;
+}
+
+.block-repo .block-repo-in {
+  background-color: #ffffff0d;
+  width: 100%;
+  height: 100%;
+  padding: .5rem;
+  -webkit-transition: all ease 150ms;
+  transition: all ease 150ms;
+}
+
+.block-repo .block-repo-in:hover {
+  -webkit-transform: translate(0px, -5px);
+          transform: translate(0px, -5px);
+  -webkit-box-shadow: 0 4.9px 10px rgba(0, 0, 0, 0.16), 0 39px 80px rgba(0, 0, 0, 0.32);
+          box-shadow: 0 4.9px 10px rgba(0, 0, 0, 0.16), 0 39px 80px rgba(0, 0, 0, 0.32);
+}
+
+.block-repo .block-repo-in .left {
+  width: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.block-repo .block-repo-in .left .title {
+  font-size: 1.4rem;
+}
+
+.block-repo .block-repo-in .left .tag span {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .8rem;
+  color: var(--color-2);
+  margin-right: .5rem;
+  padding: .3rem;
+}
+
+.block-repo .block-repo-in .left .description {
+  padding: .5rem 0;
+  color: #ffffff;
+  opacity: .6;
+  font-size: .9rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.block-repo .block-repo-in .left .description .image-description {
+  width: 130px;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  float: left;
+  margin: .5rem .5rem .5rem 0;
+}
+
+.block-repo .block-repo-in .right {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.2rem;
+  opacity: .7;
+  width: 20%;
+}
+
+.block-repo .block-repo-in .right span {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=works.component.css.map */
