@@ -23,15 +23,11 @@ export class SidebarComponent implements OnInit, AfterViewInit {
       icon: '<i class="uil uil-instagram"></i>'
     }
   ];
-  dataProfile: any;
 
   constructor(private gitHubService: GithubService) {
   }
 
-  ngOnInit(): void {
-    this.gitHubService.getRepo()
-      .subscribe(res => this.dataProfile = res);
-  }
+  ngOnInit(): void {}
 
   ngAfterViewInit(): void {
     this.initEffect();
