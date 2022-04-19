@@ -7,7 +7,6 @@ import {map} from 'rxjs/operators';
 })
 export class GithubService {
   private readonly url = 'https://api.github.com/users/kasuteryon/repos';
-  private readonly urlRepoProfile = 'https://api.github.com/repos/leifermendez/portfolio-web';
 
   constructor(private httpClient: HttpClient) {
   }
@@ -16,13 +15,7 @@ export class GithubService {
     return this.httpClient.get(`${this.url}?type=owner&per_page=100`);
   };
 
-  getRepo = () => {
-    try {
-      return this.httpClient.get(this.urlRepoProfile)
-    } catch (e) {
-      return null;
-    }
-  };
+  
 
   
 }
